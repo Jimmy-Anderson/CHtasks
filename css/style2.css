@@ -1,0 +1,80 @@
+body,html{
+	height:100%;
+	margin:0;
+	padding:0px;
+	border:0px;
+	outline:0px;
+}
+
+.header{
+	width:100%;
+	position:fixed;
+	overflow:hidden;
+	background:white;
+	top:0;
+}
+.hblock{
+	padding-top:35px;
+	display:inline-block;
+}
+h1{
+	
+	float:left;
+	font-size:50px;
+	font-family:"Arial",sans-serif;
+	font-weight:100;
+	letter-spacing:5px;
+}
+h5{
+	color:gray;
+	
+	float:right;
+	font-size:18px;
+	font-family:"Arial",sans-serif;
+	font-weight:100;
+	letter-spacing:5px;
+	text-transform:uppercase;
+	position:relative;top:32px;left:20px;
+}
+
+.hblock,h1,h5{
+	display:relative;
+}
+.main{
+	margin:50px auto;
+	padding:50px;
+	background:#d3d3d3;
+}
+h3{
+	font-size:28px;
+	font-family:"Raleway", sans-serif;
+	font-weight:100;
+	letter-spacing:2px;
+}
+.sectionodd,.sectioneven{
+	background:white;
+	padding:70px;
+	line-height:35px;
+}
+.sectionodd>.image{
+	position:relative;
+	float:left;
+	padding:20px;
+	font-size:150px;
+}
+.sectioneven>.image{
+	position:relative;
+	float:right;
+	padding:20px;	
+	margin-bottom:20px;
+	font-size:150px;
+}
+#i4{
+	margin-top:30px;
+}
+.sectioneven>.describe{
+	text-align:right;
+}
+
+
+

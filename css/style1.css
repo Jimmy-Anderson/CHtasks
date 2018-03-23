@@ -1,0 +1,54 @@
+body,html{
+	height:100%;
+	margin:0;
+	padding:0px;
+	border:0px;
+	outline:0px;
+}
+.header{
+padding-top:40px;
+}
+
+
+.main{
+	background: url(../img/bg.jpg) no-repeat;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height:525px;
+	
+	margin-top:-20px;
+	border:0px;
+	outline:0px;
+}
+.btext{
+	
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+	letter-spacing:1.5px;
+    color: #aaa;
+	position:relative;top:130px;
+}
+
+#b2{
+	letter-spacing:3px;
+	font-size:14px;
+	font-weight:lighter;
+}
+.button{
+	color: white;
+	background:#00aaff;
+	padding:12px 20px;
+	border:1px;
+	font-size:14px;
+	letter-spacing:2px;
+	text-decoration:none;
+	position:relative;top:-7px;
+}
+a:hover{
+	background:#007399;
+}
+
+
+
